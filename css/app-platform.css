@@ -226,7 +226,7 @@ http://cubiq.org/add-to-home-screen */
 
 
 /* 960 Grid */ 
-.ui-btn, .ui-collapsible, .bump {margin-left:10px; margin-right:10px;}
+.ui-btn, .ui-collapsible, .ui-controlgroup-controls, .bump {margin-left:10px; margin-right:10px;}
 
 .ui-divider960 {
 	width: 4% !important;
@@ -249,4 +249,9 @@ http://cubiq.org/add-to-home-screen */
 		float:none;
 	}
 	.container_12, .container_16, .img{margin:-10px !important;}
+}
+
+/* Fix table reflow */ 
+.ui-table-reflow.ui-responsive {
+    display: table !important;
 }
